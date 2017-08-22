@@ -1,5 +1,5 @@
-#   美图录爬虫
-##  爬取地址 http://www.meitulu.com/
+#   爬虫
+##  爬取地址 meitulu.com/
 ### python版本：2.7
 
 ## 所用模块
