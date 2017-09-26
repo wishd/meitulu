@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 # eigenvalues of website
 _id_ = input('please input a number\n')
 items = _id_
-
 # Directory path
 dir_name = '/home/wishd/meitulu/%s' % items
 os.mkdir(dir_name)
@@ -25,7 +24,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KH
            'Connection': 'keep-alive'}
 
 
-# get the page number
+# get the page number and websites address
 def page_number():
     web_add_list.append(entry_url)
     response = requests.get(entry_url, headers=headers).content
